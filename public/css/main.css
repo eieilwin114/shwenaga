@@ -1,0 +1,29 @@
+.form-group.col-sm-12.mb-3 label {
+    margin: 10px 0px !important;
+}
+.checklist_dependency .container .row:nth-last-child(-n + 2) {
+    display: none;
+}
+.dataTables_scrollBody {
+    overflow: unset !important;
+}
+
+.paginate_button {
+    border-radius: 4px;
+    color: #616876;
+    background-color: transparent;
+    padding: 5px 12px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.paginate_button:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.paginate_button.current {
+    border-radius: 4px;
+    color: #fff;
+    background-color: #206bc4;
+    padding: 5px 12px;
+}
