@@ -9,9 +9,3 @@ npm install puppeteer --global
 
 
 php artisan db:seed --class AddMoreSeeder
-
-
-
-mobile
-9000000001
-password
